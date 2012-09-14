@@ -1,10 +1,6 @@
 VERSION = 3
 PATCHLEVEL = 0
-<<<<<<< HEAD
-SUBLEVEL = 42
-=======
 SUBLEVEL = 43
->>>>>>> korg/linux-3.0.y
 EXTRAVERSION =
 NAME = Sneaky Weasel
 
