@@ -1256,7 +1256,6 @@ config ARM_ERRATA_754327
 	  This workaround defines cpu_relax() as smp_mb(), preventing correctly
 	  written polling loops from denying visibility of updates to memory.
 
-<<<<<<< HEAD
 config PL310_ERRATA_727915
 	bool "Background Clean & Invalidate by Way operation can cause data corruption"
 	depends on CACHE_L2X0
@@ -1279,7 +1278,7 @@ config KSAPI
           counter statistics. It can monitor the counter statistics for
           Scorpion processor supported hardware performance counters on a per
           thread basis or AXI counters on an overall system basis.
-=======
+
 config ARM_ERRATA_764369
 	bool "ARM errata: Data cache line maintenance operation by MVA may not succeed"
 	depends on CPU_V7 && SMP
@@ -1305,7 +1304,6 @@ config PL310_ERRATA_769419
 	  This option adds a write barrier to the cpu_idle loop so that,
 	  on systems with an outer cache, the store buffer is drained
 	  explicitly.
->>>>>>> b9a7985a8d9ca00d8ce977756fde1306c9ab1e41
 
 endmenu
 
